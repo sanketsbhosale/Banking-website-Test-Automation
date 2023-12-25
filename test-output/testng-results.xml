@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-10T21:31:33 IST" name="Default suite" finished-at="2023-12-10T21:32:10 IST" duration-ms="36073">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.testRunner@3c19aaa5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-12-10T21:31:33 IST" name="Default test" finished-at="2023-12-10T21:32:10 IST" duration-ms="36073">
+      <class name="Runner.testRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.testRunner@3c19aaa5]" started-at="2023-12-10T21:31:34 IST" name="setUpClass" finished-at="2023-12-10T21:31:34 IST" duration-ms="438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a1f45ed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Runner.testRunner@3c19aaa5]" started-at="2023-12-10T21:31:34 IST" name="beforeClass" finished-at="2023-12-10T21:31:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.testRunner@3c19aaa5]" started-at="2023-12-10T21:31:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-10T21:32:10 IST" duration-ms="35557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Para Bank logout feature"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the Register, Login & Logout functionality of Para Bank"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Runner.testRunner@3c19aaa5]" started-at="2023-12-10T21:32:10 IST" name="afterClass" finished-at="2023-12-10T21:32:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.testRunner@3c19aaa5]" started-at="2023-12-10T21:32:10 IST" name="tearDownClass" finished-at="2023-12-10T21:32:10 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.testRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
